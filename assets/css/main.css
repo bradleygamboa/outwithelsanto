@@ -1,0 +1,11 @@
+nav {
+  display: none;
+}
+
+
+/* First Slide */
+
+#item1 {
+  background-size: cover;
+  background-color: silver;
+}
