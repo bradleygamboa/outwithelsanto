@@ -1,11 +1,7 @@
-nav {
-  display: none;
-}
+/* Slider */
 
-
-/* First Slide */
-
-#item1 {
+.slider {
   background-size: cover;
   background-color: silver;
+  font-family: serif;
 }
