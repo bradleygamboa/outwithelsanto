@@ -1,7 +1,10 @@
-/* Slider */
+@font-face {
+  font-family: 'sharpie';
+  src: url('../fonts/sharpie.ttf');
+}
 
 .slider {
   background-size: cover;
   background-color: silver;
-  font-family: serif;
+  font-family: sharpie;
 }
