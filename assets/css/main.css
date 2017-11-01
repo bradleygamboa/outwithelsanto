@@ -3,9 +3,28 @@
   src: url('../fonts/sharpie.ttf');
 }
 
-.slider {
-  background-color: silver;
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.desc {
   font-family: sharpie;
+  font-size: 16px;
+}
+
+.pageHeader {
+  font-family: sharpie;
+  font-size: 48px;
+}
+
+.pageSubheader {
+  font-family: sharpie;
+  font-size: 24px;
 }
 
 #mainPage {
@@ -19,11 +38,8 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
-  h3 {
-    font-size: 20px;
-  }
-  .slider {
-    font-size: 9px;
+  .pageSubheader {
+    font-size: 12px;
   }
 }
 
@@ -44,11 +60,11 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
-  h3 {
-    font-size: 20px;
+  .pageHeader {
+    font-size: 24px;
   }
-  .slider {
-    font-size: 9px;
+  .pageSubheader {
+    font-size: 15px;
   }
 }
 
@@ -69,11 +85,11 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  h3 {
-    font-size: 23px;
+  .pageHeader {
+    font-size: 28px;
   }
-  .slider {
-    font-size: 11px;
+  .pageSubheader {
+    font-size: 18px;
   }
 }
 
@@ -94,11 +110,11 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
-  h3 {
-    font-size: 24px;
+  .pageHeader {
+    font-size: 32px;
   }
-  .slider {
-    font-size: 12px;
+  .pageSubheader {
+    font-size: 20px;
   }
 }
 
@@ -119,11 +135,11 @@
 /* Portrait and Landscape */
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-  h3 {
-    font-size: 24px;
+  .pageHeader {
+    font-size: 32px;
   }
-  .slider {
-    font-size: 12px;
+  .pageSubheader {
+    font-size: 20px;
   }
 }
 
