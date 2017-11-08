@@ -32,7 +32,7 @@ a.page-link {
   font-size: 24px;
 }
 
-#mainPage {
+.mainPage {
   background-color: #bdc3c6;
 }
 
@@ -46,15 +46,16 @@ a.page-link {
   .pageSubheader {
     font-size: 12px;
   }
-  .responsive {
-    margin-top: 125px !important;
-  }
 }
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .responsive {
+    margin-top: 125px !important;
+  }
+}
 
 
 /* Landscape */
@@ -74,15 +75,16 @@ a.page-link {
   .pageSubheader {
     font-size: 15px;
   }
-  .responsive {
-    margin-top: 150px !important;
-  }
 }
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .responsive {
+    margin-top: 150px !important;
+  }
+}
 
 
 /* Landscape */
@@ -102,15 +104,16 @@ a.page-link {
   .pageSubheader {
     font-size: 18px;
   }
-  .responsive {
-    margin-top: 175px !important;
-  }
 }
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .responsive {
+    margin-top: 175px !important;
+  }
+}
 
 
 /* Landscape */
@@ -130,15 +133,16 @@ a.page-link {
   .pageSubheader {
     font-size: 20px;
   }
-  .responsive {
-    margin-top: 200px !important;
-  }
 }
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .responsive {
+    margin-top: 200px !important;
+  }
+}
 
 
 /* Landscape */
@@ -158,15 +162,16 @@ a.page-link {
   .pageSubheader {
     font-size: 20px;
   }
-  .responsive {
-    margin-top: 225px !important;
-  }
 }
 
 
 /* Portrait */
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {}
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .responsive {
+    margin-top: 225px !important;
+  }
+}
 
 
 /* Landscape */
